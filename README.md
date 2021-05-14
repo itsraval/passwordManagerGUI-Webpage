@@ -2,4 +2,4 @@
 WebSite of Password Manager GUI project.
 
 
-https://www.pswmanager.tk
+https://pswmanager.tk
