@@ -1,0 +1,65 @@
+:root {
+    --white: #f2f2f2;
+    --bg: #2e2e2e;
+    --main: #3e6c73;
+}
+
+html, body{
+    width: 100%;
+    margin: 0px;
+    font-family: 'Montserrat';
+    color: var(--white);
+    background-color: var(--bg);
+    text-align: center;
+}
+
+h1{
+    font-size: 70px;
+    text-shadow: 3px 3px var(--main);
+}
+
+hr{
+    width: 50%;
+    border: solid 2px var(--main);
+    margin-top: 50px;
+}
+
+section{
+    width: 80%;
+    margin-left: 10%;
+}
+
+h2{
+    text-align: left;
+    font-size: 40px;
+    text-shadow: 2px 2px var(--main);
+}
+
+img{
+    max-width: 100%;
+}
+
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+#copyright{
+    text-align: center;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 500px) {
+    h1{
+        font-size: 40px;
+    }
+    
+    section{
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    h2{
+        font-size: 35px;
+    }
+}
